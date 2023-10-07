@@ -322,7 +322,7 @@
                 </div>
             </section>
 
-            <section class="cart">
+            <section class="cart" hidden>
                 <div class="container cart__container">
                     <h2 class="cart__title">Корзина</h2>
 
@@ -413,6 +413,50 @@
                             </label>
                         </fieldset>
                     </form>
+                </div>
+            </section>
+
+            <section class="order">
+                <div class="container order__container">
+                    <div class="order__header">
+                        <h2 class="order__title">Заказ успешно размещен</h2>
+                        <p class="order__price">20&nbsp;000&nbsp;₽</p>
+                    </div>
+                    <p class="order__number">№43435</p>
+
+                    <div class="order__info">
+                        <h3 class="order__info-title">Данные доставки</h3>
+
+                        <table class="order__info-table order-table">
+                            <tr class="order-table__row">
+                                <td class="order-table__field">Получатель</td>
+                                <td class="order-table__value">Иванов Петр Александрович</td>
+                            </tr>
+                            <tr class="order-table__row">
+                                <td class="order-table__field">Телефон</td>
+                                <td class="order-table__value">+7 (737) 346 23 00</td>
+                            </tr>
+                            <tr class="order-table__row">
+                                <td class="order-table__field">E-mail</td>
+                                <td class="order-table__value">Ivanov84@gmail.com</td>
+                            </tr>
+                            <tr class="order-table__row">
+                                <td class="order-table__field">Адрес доставки</td>
+                                <td class="order-table__value">Москва, ул. Ленина, 21, кв. 33</td>
+                            </tr>
+                            <tr class="order-table__row">
+                                <td class="order-table__field">Способ оплаты</td>
+                                <td class="order-table__value">Картой при получении</td>
+                            </tr>
+                            <tr class="order-table__row">
+                                <td class="order-table__field">Способ получения</td>
+                                <td class="order-table__value">Доставка</td>
+                            </tr>
+                        </table>
+
+                        <a class="order__btn" href="/">На главную</a>
+                    </div>
+
                 </div>
             </section>
         </main>
