@@ -1,0 +1,32 @@
+.contacts {
+    &__phone {
+        display: flex;
+        gap: 4px;
+        margin-bottom: 20px;
+        &:hover {
+            color: #780096;
+        }
+    }
+    &__list {
+        display: flex;
+        gap: 8px;
+        color: #fff;
+    }
+    &__link {
+        &_vk {
+            &:hover {
+                color: #0077ff;
+            }
+        }
+        &_youtube {
+            &:hover {
+                color: #FF0000;
+            }
+        }
+        &_tg {
+            &:hover {
+                color: #2AABEE;
+            }
+        }
+    }
+}

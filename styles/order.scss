@@ -1,0 +1,95 @@
+.order {
+    padding-top: 32px;
+    &__container {
+        padding: 0;
+        border-radius: 16px;
+        border: 1px solid #EEEFF2;
+        max-width: 320px;
+        @media (min-width: 580px) {
+            padding: 0 29px;
+            max-width: 522px;
+        } 
+    
+        @media (min-width: 820px) {
+            padding: 0 43px;
+            max-width: 726px;
+        } 
+    
+        @media (min-width: 1120px) {
+            padding: 0 92px;
+            max-width: 832px;
+        }
+    }
+    &__wrapper {
+        margin: 0 auto;
+        padding: 24px 16px;
+        @media (min-width: 580px) {
+            padding: 60px 0;
+        } 
+       
+    }
+    &__content {
+        @media (min-width: 580px) {
+            max-width: 408px;
+            margin: 0 auto;
+        } 
+    }
+    &__header {
+        margin-bottom: 8px;
+        @media (min-width: 580px) {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 12px;
+        }
+    }
+    &__title {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 8px;
+        @media (min-width: 580px) {
+            margin-bottom: 0;
+            font-size: 20px;
+        }
+    }
+    &__price {
+        font-size: 16px;
+        font-weight: 400;
+        @media (min-width: 580px) {
+            font-size: 20px;
+        }
+    }
+    &__number {
+        padding: 4px 8px;
+        border-radius: 32px;
+        background: #EEEFF2;
+        display: inline-block;
+        margin-bottom: 20px;
+        @media (min-width: 580px) {
+            margin-bottom: 24px;
+        }
+    }
+    &__info-title {
+        font-size: 16px;
+        font-weight: 400;
+        margin-bottom: 12px;
+    }
+    &__info-table {
+        margin-bottom: 24px;
+    }
+    &__btn {
+        display: block;
+        width: 100%;
+        padding: 12px 24px;
+        border-radius: 32px;
+        color: white;
+        border: 1px solid #780096;
+        background-color: #780096;
+        text-align: center;
+        &:hover {
+            background-color: #9200b7;
+        }
+        &:focus-visible {
+            border-color: #c0f;
+        }
+    }
+}
