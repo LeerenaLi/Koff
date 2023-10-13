@@ -39,13 +39,14 @@
         &:hover,
         &:focus-visible {
             border-color: #780096;
+            background-color:  #EEEFF2;
             color: #780096;
         }
         &:active,
         &_active {
             color: #fff;
             background-color: #780096;
-            pointer-events: none;
+            // pointer-events: none;
         }
     }
 }
